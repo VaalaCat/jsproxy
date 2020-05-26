@@ -12,12 +12,13 @@ jsproxy_config({
 
   // 节点配置
   node_map: {
-    //'mysite': {
-    //  label: '当前站点',
-    //  lines: {
-    //    [location.host]: 1,
-    //  }
-    //},
+    'mysite': {
+      label: 'cf',
+      lines: {
+        'proxy.vaalacat.workers.dev': 1,
+        'proxy.huidcs176.workers.dev': 1,
+      }
+    },
     // 该节点用于加载大体积的静态资源
     'cfworker': {
       label: 'cfworker',
