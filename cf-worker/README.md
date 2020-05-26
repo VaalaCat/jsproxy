@@ -12,7 +12,7 @@
 
 注册，登陆，`Start building`，取一个子域名，`Create a Worker`。
 
-复制 [index.js](https://raw.githubusercontent.com/EtherDream/jsproxy/master/cf-worker/index.js) 到左侧代码框，`Save and deploy`。如果正常，右侧应显示首页。
+复制 [index.js](https://raw.githubusercontent.com/VaalaCat/jsproxy/master/cf-worker/index.js) 到左侧代码框，`Save and deploy`。如果正常，右侧应显示首页。
 
 收藏地址框中的 `https://xxxx.子域名.workers.dev`，以后可直接访问。
 
@@ -26,7 +26,7 @@
 
 # 修改配置
 
-默认情况下，静态资源从 `https://etherdream.github.io/jsproxy` 反向代理，可通过代码中 `ASSET_URL` 配置，从而可使用自定义的 `conf.js` 配置。
+默认情况下，静态资源从 `https://vaalacat.github.io/jsproxy` 反向代理，可通过代码中 `ASSET_URL` 配置，从而可使用自定义的 `conf.js` 配置。
 
 
 # 存在问题
