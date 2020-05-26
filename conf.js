@@ -17,6 +17,7 @@ jsproxy_config({
       lines: {
         'proxy.vaalacat.workers.dev': 1,
         'proxy.huidcs176.workers.dev': 1,
+        'proxy.vaala.workers.dev': 1,
       }
     },
     // 该节点用于加载大体积的静态资源
@@ -31,8 +32,7 @@ jsproxy_config({
         // 每个账号每天 10 万次免费请求，但有频率限制
         'proxy.vaalacat.workers.dev': 1,
         'proxy.huidcs176.workers.dev': 1,
-        //'b.lulu.workers.dev': 1,
-        //'b.jsproxy.workers.dev': 1,
+        'proxy.vaala.workers.dev': 1,
       }
     }
   },
