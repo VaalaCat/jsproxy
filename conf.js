@@ -20,8 +20,6 @@ jsproxy_config({
         'proxy.vaala.workers.dev': 1,
         'proxy.vaalaus.workers.dev': 1,
         'proxy.huidcs.workers.dev': 1,
-        'vaala.cat:8443': 2,
-        'vaala.cat:8443': 2,
       }
     },
     // 该节点用于加载大体积的静态资源
