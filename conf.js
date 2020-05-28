@@ -18,6 +18,9 @@ jsproxy_config({
         'proxy.vaalacat.workers.dev': 1,
         'proxy.huidcs176.workers.dev': 1,
         'proxy.vaala.workers.dev': 1,
+        'proxy.vaalaus.workers.dev': 1,
+        'proxy.huidcs.workers.dev': 1,
+        'vaala.cat:8443': 2,
         'vaala.cat:8443': 2,
       }
     },
@@ -34,6 +37,8 @@ jsproxy_config({
         'proxy.vaalacat.workers.dev': 1,
         'proxy.huidcs176.workers.dev': 1,
         'proxy.vaala.workers.dev': 1,
+        'proxy.vaalaus.workers.dev': 1,
+        'proxy.huidcs.workers.dev': 1,
       }
     }
   },
