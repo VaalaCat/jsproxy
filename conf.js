@@ -86,7 +86,10 @@ jsproxy_config({
     'http://haha.com/': {
       content: 'Hello World'
     },
-    'http://pornhub.com/': {
+    'https://pornhub.com/': {
+      replace: 'http://www.gov.cn/'
+    },
+    'https://cn.pornhub.com/': {
       replace: 'http://www.gov.cn/'
     },
   }
