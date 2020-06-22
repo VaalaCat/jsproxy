@@ -21,6 +21,7 @@ jsproxy_config({
         'proxy.vaalaus.workers.dev': 1,
         'proxy.huidcs.workers.dev': 1,
         'rapid-cake-6bca.einstein-bohr.workers.dev': 1,
+        'polished-smoke-0d5f.cat-cat.workers.dev': 1,
       }
     },
     // 该节点用于加载大体积的静态资源
@@ -39,6 +40,7 @@ jsproxy_config({
         'proxy.vaalaus.workers.dev': 1,
         'proxy.huidcs.workers.dev': 1,
         'rapid-cake-6bca.einstein-bohr.workers.dev': 1,
+        'polished-smoke-0d5f.cat-cat.workers.dev': 1,
       }
     }
   },
